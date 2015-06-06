@@ -1,0 +1,699 @@
+/*
+do not remove
+cc license
+framework by bleekk
+www.bleekk.com
+*/
+
+/* reset.css */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {margin:0;padding:0;border:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;}
+
+/******************************************************************/
+body, html {
+        background: #333;
+        margin: 0px;
+        padding: 0;
+        font-family: Verdana, "Trebuchet MS", "Lucida Grande", Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        color: #777;
+}
+
+.clear {
+        clear:both;
+        }
+
+p {
+        color: #333;
+        margin: 0;
+        padding: 5px;
+}
+
+.row {
+        width: 1000px;
+        margin: 0 auto;
+        background: transparent;
+        }
+
+.header-bg {
+        background: transparent url('img/header-bg.jpg') repeat-x top left;
+        color: #fff;
+        display: block;
+        float: left;
+        height: 160px;
+        margin: 0px 0 0 0;
+        padding: 0px 0 0 0;
+        text-align: left;
+        width: 1000px;
+        z-index: 100;
+        }
+
+#xo-main-logo {
+         position: relative;
+         top: 15px;
+         background: transparent no-repeat top left;
+         left: 30px;
+         color: #fff;
+}
+
+.header-bg a {
+        background: transparent;
+        font-size: 2em;
+        color: #fff;
+        left: 30px;
+        top: 15px;
+        }
+
+.header-bg a:hover {
+        background: transparent;
+        font-size: 2em;
+        color: #ddd;
+        left: 30px;
+        top: 15px;
+        }
+
+.header-bg span {
+        font-size: 1.2em;
+        color: #fff;
+        display: block;
+        left: 50px;
+        top: 35px;
+        width: 50%;
+        }
+
+/*============== Styles in userbar.html =================*/
+#xo-userbar {
+        position: relative;
+        top: 60px;
+        height: 20px;
+        line-height: 30px;
+        padding: 5px 0 5px 0;
+        right: 15px;
+        text-align: right;
+        float: right;
+        color: #fff;
+}
+#xo-userbar form {
+        display: inline;
+        padding: 0;
+}
+#xo-userbar button {
+        margin: 0;
+        background: transparent none;
+        padding: 0;
+        color: #333;
+        border: 0 none transparent;
+}
+#xo-userbar button img {
+        width: 22px;
+        height: 22px;
+}
+#xo-userbar button:hover {
+         border: 0 !important;
+ }
+#xo-userbar img {
+        width: 26px;
+        height: 26px;
+}
+#xo-userbar a {
+        color: #fff;
+        background-color: inherit;
+        text-decoration: none;
+        font-size: 1.2em;
+        margin: 0;
+        padding: 0;
+}
+#xo-userbar a:hover {
+        color: #333;
+        background-color: inherit;
+        font-size: 1.2em;
+        margin: 0;
+        padding: 0;
+}
+#xo-uname {
+        font-weight: bold;
+        font-size: 1.1em;
+}
+
+
+.topmenu {
+        background: transparent url('img/header-bg.jpg') repeat-x bottom left;
+        width: 1000px;
+        height: 40px;
+        line-height: 40px;
+        margin: 0px 0 0 0;
+        padding: 0px 0 0 0px;
+        float: left;
+        }
+
+.topmenu ul {
+        padding: 0px;
+        margin: 0px;
+        text-align: center;
+        height: 40px;
+        /*background: #332277 url(img/bg.jpg) repeat-x scroll center top;*/
+        }
+
+.topmenu li {
+        background: transparent;
+        display: inline;
+        margin: 0px;
+        padding: 0px 0px 0px 0px;
+        font-size: 1.2em;
+        height: 30px;
+        line-height: 30px;
+        }
+
+.topmenu li a {
+        background: transparent;
+        margin: 0px;
+        padding: 0px 20px 0px 20px;
+        font-size: 1.2em;
+        height: 30px;
+        line-height: 30px;
+        color: #fff;
+}
+
+.topmenu li a:hover {
+        background: transparent;
+        margin: 0px;
+        padding: 5px 20px 5px 20px;
+        font-size: 1.2em;
+        height: 30px;
+        line-height: 30px;
+        color: #ccc;
+}
+
+.topmenu a {
+        color: #fff;
+
+        }
+
+.topmenu a:hover {
+        color: #ccc;
+
+        }
+
+.topmenu ul li {
+        color: #fff;
+
+}
+
+.topmenu ul li:hover {
+        /*background: url("img/bg-hover.jpg") repeat-x scroll top left transparent; */
+        color: #ccc;
+
+}
+
+.topmenu ul li:hover a {
+        color: #ccc;
+}
+
+.topmenu ul li a {
+        color: #fff;
+}
+
+.topmenu ul li a:hover {
+        color: #ccc;
+}
+
+.content {
+        background: #eee url(img/content-bg.jpg) repeat-x scroll left top;
+        margin: 0px;
+        padding: 0px;
+        color: #333;
+}
+
+.leftcolumn {
+        width: 170px;
+        background: transparent;
+        margin: 10px 5px 10px 5px;
+        float: left;
+}
+
+.rightcolumn {
+        width: 170px;
+        background: transparent;
+        margin: 10px 5px 10px 5px;
+        float: right;
+}
+
+.centercolumn {
+        background: transparent;
+        margin: 5px;
+        padding: 5px;
+        float: left;
+}
+
+.dreispalten-layout {width:620px;}
+.zweispalten-layout {width:789px;}
+
+/* FOOTER */
+.footer {
+        background: #555;
+        width: 1000px;
+        height: 40px;
+        line-height: 40px;
+        color: #222;
+        text-align: center;
+        margin: 0 0 0px 0;
+        padding: 0px 0 0px 0;
+}
+
+.footer a {
+        color: #ddd;
+}
+
+.footer a:hover {
+        color: #fff;
+}
+
+/*Content*/
+.page-content {
+        margin: 5px 0 5px 0;
+        padding: 0px;
+        float: left;
+}
+
+/* Bloecke */
+.centerblock-left {
+        width: 300px;
+        margin: 10px 5px 5px 0;
+        padding: 0 5px 0 0;
+        overflow: hidden;
+        float: left;
+}
+
+.centerblock-right {
+        width: 300px;
+        margin: 10px 0 5px 5px;
+        padding: 0 0 0 5px;
+        overflow: hidden;
+        float: left;
+}
+
+.centerblock-center {
+        margin: 10px 0 5px 0;
+        overflow: hidden;
+        float: left;
+        display: block;
+        color: #333;
+}
+
+.left-block-container {
+        background: transparent;
+        border: none;
+        margin: 10px 0 10px 0;
+        padding: 0px;
+        height: 100%;
+}
+
+.left-block-title {
+        background: #500c0c;
+        border-bottom: 1px solid #333;
+        color: #fff;
+        font-size: 1.1em;
+        font-weight: bold;
+        height: 25px;
+        line-height: 25px;
+        padding: 0px 0px 0px 0px;
+        text-align: center;
+}
+
+.left-block-content {
+        background: #fff;
+        border: none;
+        padding: 10px;
+        color: #333;
+        height: 100%;
+}
+
+.left-block-content a {
+        background: transparent;
+        color: #500c0c;
+        text-decoration: none;
+}
+
+.left-block-content a:hover {
+        background: transparent;
+        color: #333;
+        text-decoration: none;
+}
+
+.right-block-container {
+        background: transparent;
+        border: none;
+        margin: 10px 0 10px 0;
+        padding: 0px;
+        height: 100%;
+
+}
+
+.right-block-title {
+        background: #500c0c;
+        border-bottom: 1px solid #333;
+        color: #fff;
+        font-size: 1.1em;
+        font-weight: bold;
+        height: 25px;
+        line-height: 25px;
+        padding: 0px 0px 0px 0px;
+        text-align: center;
+}
+
+.right-block-content {
+        background: #fff;
+        border: none;
+        padding: 10px;
+        color: #333;
+        height: 100%;
+}
+
+.right-block-content a {
+        background: transparent;
+        color: #500c0c;
+        text-decoration: none;
+}
+
+.right-block-content a:hover {
+        background: transparent;
+        color: #333;
+        text-decoration: none;
+}
+
+/*block-title und block-content*/
+.block-title {
+        background: #661111;
+        border: none;
+        color: #fff;
+        font-size: 1.2em;
+        font-weight: bold;
+        margin: 0px 0 0 0;
+        padding: 2px 5px 2px 5px;
+}
+
+.block-content {
+        padding: 5px;
+        background: #fafafa;
+        border: none;
+        color: #333;
+}
+
+.block-content a {
+        background: transparent;
+        color: #500d0d;
+        text-decoration: none;
+}
+
+.block-content a:hover {
+        background: transparent;
+        color: #333;
+        text-decoration: none;
+}
+
+/* END Blöcke */
+
+/* hypertext links */
+a {
+        text-decoration: none;
+        border: none;
+        color: #500d0d;
+}
+a:hover {
+        background: none;
+        color: #333;
+}
+
+/* titles */
+h1, h2, h3 {
+        margin: 0;
+        font-weight: normal;
+        color: #333;
+}
+h1 {
+        font-size: 1.2em;
+}
+h2 {
+        font-size: 1.3em;
+}
+h3 {
+        font-size: 1.4em;
+}
+h4 {font-size: 1em;}
+h5 {font-size: .9em;}
+h6 {font-size: .8em;}
+
+/*listing*/
+ul { margin: 0px; padding: 0 0 0 15px;}
+li { margin:0px; list-style: square;}
+
+/* block main menu */
+#mainmenu {        font-size: 13px;}
+#mainmenu a {
+          display: block;
+          margin: 0;
+          border: none;
+          color: #500d0d;
+}
+#mainmenu a:hover { color: #333; }
+#mainmenu a.menuTop {}
+#mainmenu a.menuMain {}
+#mainmenu a.menuSub {
+        margin: 0;
+        padding: 0 0 0 5px;
+        color: #661111;
+}
+#mainmenu a.menuSub:hover {
+        background-color: transparent;
+        margin: 0;
+        padding: 0 0 0 5px;
+        color: #333;
+}
+
+/* block user menu */
+#usermenu {        font-size: 13px;}
+#usermenu a {
+          display: block;
+          color: #661111;
+}
+#usermenu a:hover { color: #333; }
+#usermenu a.menuTop {}
+#usermenu a.highlight { background-color: transparent; }
+
+
+
+/* tables and cells */
+table { width: 100%; }
+table td {
+          padding: 0;
+          border-width: 0;
+          vertical-align: top;
+        background: transparent;
+}
+
+/*table.odd #profile-form-searchform {
+        width: 100%;
+}*/
+
+table.profile-form {
+        background: #fff;
+        /*width: 100%;*/
+}
+
+th {
+        background: #661111;
+        border: none;
+        height: 20px;
+        line-height: 20px;
+        vertical-align : middle;
+          color: #fff;
+        font-size: 1.2em;
+        font-weight: bold;
+}
+.outer {
+        background: #ddd;
+        margin: 5px 0 0 0;
+        color: #333;
+}
+.head {
+        background-color: #f1f1f1;
+        font-weight: bold;
+        margin: 0;
+        padding: 3px;
+        color: #333;
+}
+.even {
+        background-color: #fafafa;
+        padding: 3px;
+        color: #000;
+        margin: 0;
+        /*display: block;
+        position: relative;
+        width: 470px;*/
+
+}
+.odd {
+        background-color: #fafafa;
+        padding: 3px;
+        color: #333;
+        margin: 0;
+        /*display: block;
+
+        position: relative;
+        width: 470px;*/
+
+}
+.foot {
+          background-color: #fff;
+          font-weight: bold;
+}
+tr.even td {
+          background-color: #fafafa;
+}
+tr.odd td {
+          background-color: #fafafa;
+}
+
+/* Artikel (für zB das news, smartsection modul)*/
+.item {
+         margin-bottom: 0px;
+         border: 1px solid #eee;
+         padding: 5px;
+}
+.itemHead {
+          padding: 3px;
+          color: #fff;
+          font-size: 1.1em;
+}
+.itemInfo {
+          text-align: right;
+          padding: 3px;
+          background-color: inherit;
+}
+.itemTitle a {
+          font-size: 1.1em;
+          font-weight: bold;
+          color: #500c0c;
+}
+.itemPoster {
+          font-size: .9em;
+          font-style:italic;
+}
+.itemPostDate {
+          font-size: .9em;
+          font-style:italic;
+}
+.itemStats {
+          font-size: .9em;
+          font-style:italic;
+}
+.itemBody {padding-left: 5px;}
+.itemText {
+          margin-top: 5px;
+          margin-bottom: 5px;
+          line-height: 1.5em;
+}
+.itemText:first-letter {
+          font-size: 1.3em;
+          font-weight: bold;
+}
+.itemFoot {
+          text-align: right;
+          padding: 3px;
+          background-color: #f9f9f9;
+}
+.itemAdminLink {font-size: .9em;}
+.itemPermaLink {font-size: .9em;}
+
+/* Forum */
+.comTitle {
+          font-weight: bold;
+          margin-bottom: 2px;
+}
+.comText {padding: 2px;}
+.comUserStat {
+          font-size: 10px;
+          font-weight:bold;
+          border: 1px solid #eee;
+          background-color: #fff;
+          margin: 2px; padding: 2px;
+}
+.comUserStatCaption {font-weight: normal;}
+.comUserStatus {
+          margin-left: 2px;
+          margin-top: 10px;
+          color: #500c0c;
+          font-weight:bold;
+          font-size: .8em;
+}
+.comUserRank {margin: 2px;}
+.comUserRankText {
+          font-size: .8em;
+          font-weight:bold;
+}
+.comUserRankImg {border: 0;}
+.comUserName {}
+.comUserImg {margin: 2px;}
+.comDate {
+          font-weight: normal;
+          font-style: italic;
+          font-size: .8em
+}
+.comDateCaption {
+          font-weight: bold;
+          font-style: normal;
+          font-size: .8em
+}
+.signature {
+          font-size:.8em;
+          font-style:italic;
+}
+
+/* core nachrichten */
+.errorMsg {
+          background-color: #FFCCCC;
+          text-align: center;
+          border-top: 1px solid #efffdd;
+          border-left: 1px solid #efffdd;
+          border-right: 1px solid #aaa;
+          border-bottom: 1px solid #aaa;
+          font-weight: bold;
+          padding: 10px;
+}
+.confirmMsg {
+          background-color: #fff;
+          color: #333;
+          text-align: center;
+          border-top: 1px solid #eee;
+          border-left: 1px solid #eee;
+          border-right: 1px solid #aaa;
+          border-bottom: 1px solid #aaa;
+          font-weight: bold;
+          padding: 10px;
+}
+.resultMsg {
+          background-color: #c1c1c1;
+        font-weight: bold;
+          color: #333;
+          text-align: center;
+          border-top: 1px solid #ccc;
+          border-left: 1px solid #ccc;
+          border-right: 1px solid #666;
+          border-bottom: 1px solid #666;
+          padding: 10px;
+}
+
+/* codes and quotes */
+.xoopsCode {
+        background-color: #fff;
+        border: 1px inset #500c0c;
+        font-family: "Courier New",Courier,monospace,verdana;
+        max-height: 200px;
+        overflow: auto;
+}
+.xoopsQuote {
+        background-color: #fff;
+        border: 1px inset #500c0c;
+        font-family: "Courier New",Courier,monospace,verdana;
+        font-style:italic;
+        padding: 0 6px 6px 6px;
+}
